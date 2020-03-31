@@ -1,4 +1,4 @@
-package javaDemo;
+package staticMemberD;
 
 public class HelloWorld {
 
