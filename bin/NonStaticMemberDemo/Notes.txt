@@ -1,0 +1,3 @@
+Non Static blocks are executed every time Object is created
+Static Blocks are executed only once
+Static blocks are executed first then the non static blocks
