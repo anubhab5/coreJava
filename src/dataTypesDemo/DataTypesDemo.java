@@ -21,7 +21,7 @@ public class DataTypesDemo {
 		long upperLimitLong = 9223372036854775806l;
 		
 		// 2 bytes
-		char charLowerLimit = 0;
+		char charLowerLimit = 'd';
 		char charUpperLimit = 65535;
 		
 		// 4 bytes
