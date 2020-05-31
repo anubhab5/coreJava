@@ -7,8 +7,7 @@ public class Assignment7Test {
 		try {
 			Thread.sleep(2000);
 		} catch (InterruptedException e) {
-			throw new MyThreadException("Some Error");
+			// throw new MyThreadException("Some Error");
 		}
 	}
-
 }
