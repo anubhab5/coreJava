@@ -26,7 +26,7 @@ public class ListMethods {
 
 		/////////////////////////////////////////////////////
 
-		List<Integer> secondList = new ArrayList();
+		List<Integer> secondList = new ArrayList<Integer>();
 		secondList.add(111);
 		secondList.add(222);
 		secondList.add(333);
