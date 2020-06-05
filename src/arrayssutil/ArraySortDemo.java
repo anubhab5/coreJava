@@ -1,6 +1,7 @@
 package arrayssutil;
 
 import java.util.Arrays;
+import java.util.List;
 
 public class ArraySortDemo {
 
@@ -26,24 +27,32 @@ public class ArraySortDemo {
 		for (String s : str) {
 			System.out.println(s);
 		}
-		
+
 		System.out.println(".................");
-		
+
 		// Normal Sort
 		Arrays.sort(str);
 		System.out.println("After Sort:- ");
 		for (String s : str) {
 			System.out.println(s);
 		}
-		
+
 		System.out.println(".................");
-		
+
+		int binarySearch = Arrays.binarySearch(str, "g");
+		System.out.println("Binary Search Result:- " + binarySearch);
+
+		System.out.println(".................");
+
 		// Custom Sort
 		Arrays.sort(str, new MyComparator());
 		System.out.println("After Sort:- ");
 		for (String s : str) {
 			System.out.println(s);
 		}
+
+		List<String> asList = Arrays.asList(str);
+		System.out.println(asList);
 	}
 
 }
